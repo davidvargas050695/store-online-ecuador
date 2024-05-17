@@ -41,10 +41,10 @@ const CartShop = () => {
                         <tr className="cart-shop__tr">
                             <th className="cart-shop__th">Productos</th>
                             <th className="cart-shop__th">Imagen</th>
-                            <th className="cart-shop__th">Price</th>
-                            <th className="cart-shop__th">Quantity</th>
+                            <th className="cart-shop__th">Precio</th>
+                            <th className="cart-shop__th">Cantidad</th>
                             <th className="cart-shop__th">Total</th>
-                            <th className="cart-shop__th">Action</th>
+                            <th className="cart-shop__th">Acción</th>
                         </tr>
                     </thead>
                     <tbody className="cart-shop__tbody">

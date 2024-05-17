@@ -29,7 +29,7 @@ const FormContact = () => {
     return (
         <>
             <form onSubmit={handleSubmit} className="form-contact">
-                <h3 className="form-contact__title">Leave Message</h3>
+                <h3 className="form-contact__title">Contactenos</h3>
                 <div className="form-contact__input-group">
                     <input
                         type="text"
