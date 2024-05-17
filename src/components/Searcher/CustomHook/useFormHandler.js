@@ -8,8 +8,6 @@ const reducer = (state, action) => {
     switch (action.type) {
         case 'SET_INPUT':
             return { ...state, input: action.payload };
-        case 'RESET_INPUT':
-            return initialState;
         default:
             return state;
     }
@@ -25,7 +23,6 @@ const useFormHandler = (onSearch) => {
     const handleSubmit = useCallback((event) => {
         event.preventDefault();
         onSearch(state.input);
-        dispatch({ type: 'RESET_INPUT' });
     }, [onSearch, state.input]);
 
     return {
