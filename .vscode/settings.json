@@ -1,0 +1,9 @@
+{
+    "autoBarrel.files.includeExtensionOnExport": [
+        "jsx",
+        "js",
+        "ts",
+        "tsx",
+        "vue"
+    ]
+}
